@@ -45,5 +45,21 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<!-- Разрешение на использование камеры -->
+	<key>NSCameraUsageDescription</key>
+	<string>Приложению требуется доступ к камере для распознавания самокатов</string>
+
+	<!-- Разрешение на доступ к фото библиотеке -->
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Приложению требуется доступ к галерее для выбора фотографий самокатов</string>
+
+	<!-- Разрешение на добавление в фото библиотеку -->
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Приложению требуется доступ для сохранения фотографий</string>
+
+	<!-- Разрешение на использование микрофона (если нужно для видео) -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Приложению требуется доступ к микрофону для записи видео</string>
 </dict>
 </plist>
