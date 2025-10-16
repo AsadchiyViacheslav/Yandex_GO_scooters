@@ -57,5 +57,5 @@ flutter:
   assets:
     - assets/images/logo.png
     - assets/images/icon.png
-    - assets/models/mobilenetv3_large.onnx
-    - assets/models/efficientnetv2s.onnx  
+    - assets/models/scooter_model.onnx
+    - assets/models/parking_model.onnx
