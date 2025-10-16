@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
               ),
               const SizedBox(height: 16),
               const Text(
-                'Распознавание самокатов',
+                'Анализ фото самокатов в конце поездки',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w700,
