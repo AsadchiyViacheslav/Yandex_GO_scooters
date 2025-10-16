@@ -30,9 +30,9 @@ class _VideoModeScreenState extends State<VideoModeScreen> {
   Future<void> _initializeModel() async {
     try {
       await _modelService.loadModel();
-      print('✓ Model loaded successfully');
+      print('Model loaded successfully');
     } catch (e) {
-      print('✗ Error loading model: $e');
+      print('Error loading model: $e');
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(

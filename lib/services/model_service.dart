@@ -44,13 +44,13 @@ class ModelService {
 
       final sessionOptions = OrtSessionOptions();
 
-      final scooterModelBytes = await rootBundle.load('assets/models/mobilenetv3_large.onnx');
+      final scooterModelBytes = await rootBundle.load('assets/models/scooter_model.onnx');
       final scooterModelData = scooterModelBytes.buffer.asUint8List();
       _scooterSession = OrtSession.fromBuffer(scooterModelData, sessionOptions);
 
       print('Scooter detection model loaded');
 
-      final parkingModelBytes = await rootBundle.load('assets/models/efficientnetv2s.onnx');
+      final parkingModelBytes = await rootBundle.load('assets/models/parking_model.onnx');
       final parkingModelData = parkingModelBytes.buffer.asUint8List();
       _parkingSession = OrtSession.fromBuffer(parkingModelData, sessionOptions);
       print('Parking detection model loaded');
