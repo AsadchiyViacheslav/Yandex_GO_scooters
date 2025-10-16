@@ -14,22 +14,26 @@ dependencies:
 
   cupertino_icons: ^1.0.8
   
-  # ML и обработка изображений
   onnxruntime: ^1.4.1
   image: ^4.0.17
   
-  # Работа с камерой и галереей
   camera: ^0.11.0+2
   image_picker: ^1.1.2
   
-  # Разрешения
   permission_handler: ^11.3.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
 
   flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/icon.png"
+  
 
 flutter:
   uses-material-design: true
@@ -52,5 +56,6 @@ flutter:
 
   assets:
     - assets/images/logo.png
+    - assets/images/icon.png
     - assets/models/mobilenetv3_large.onnx
-    # - assets/models/model2.onnx  # Раскомментировать когда добавится
+    - assets/models/efficientnetv2s.onnx  
