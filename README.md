@@ -76,6 +76,7 @@ flutter run
 
 # iOS
 cd ios && pod install && cd ..
+# Если выдало ошибку sudo gem install cocoapods
 flutter run
 ```
 
