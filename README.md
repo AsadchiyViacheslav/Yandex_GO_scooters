@@ -3,13 +3,16 @@
 Мобильное приложение для анализа фото после поездки на самокате. Приложение определеяет есть ли самокат на изображении и стоит ли он на парковке.
 
 Приложение разработано в рамках студкемпа от Яндекса, ФКН ВШЭ и Неймарка. Тема кемпа - Компьютерное зрение и автономный транспорт.  
-Ноутбуки с кодом загрузки и обработки данных, обучения моделей и их оценки и подобному [здесь](https://github.com/AsadchiyViacheslav/Learning-Materials/tree/main/DL/CV/studcamp_hse/project)
 
 <p align="center">
   <img src="screenshots/first.jpg" alt="First page" width="200">
   &nbsp;&nbsp;&nbsp;
   <img src="screenshots/second.jpg" alt="Second page" width="200"/>
 </p>
+
+---
+
+*Ноутбуки с кодом загрузки и обработки данных, обучения моделей, их оценки и подобному [здесь](https://github.com/AsadchiyViacheslav/Learning-Materials/tree/main/DL/CV/studcamp_hse/project)*
 
 ---
 
