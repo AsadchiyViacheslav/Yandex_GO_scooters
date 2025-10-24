@@ -12,7 +12,7 @@
 
 ---
 
-*Ноутбуки с кодом загрузки и обработки данных, обучения моделей, их оценки и подобному [здесь](https://github.com/AsadchiyViacheslav/Learning-Materials/tree/main/DL/CV/studcamp_hse/project)*
+*Ноутбуки с кодом загурзки и обработки данных, обучения моделей, их оценки на тесте и подобное [здесь](https://github.com/AsadchiyViacheslav/Learning-Materials/tree/main/DL/CV/studcamp_hse/project)*
 
 ---
 
